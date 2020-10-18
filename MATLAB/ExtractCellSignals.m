@@ -28,8 +28,7 @@ for i = 1:size(moviefiles,1)
 %     movieInf = find(retinaInfo(:,1) == movieNum);
 %     ch_num = retinaInfo(movieInf, 7);
 
-    %% IMPORT TIFF FILES%%%%
-
+    %% IMPORT TIFF FILES%%
 
     [~, tseries] = fileparts(pname);
     xmlname = dir([pname '\TSeries*' '.xml']);
